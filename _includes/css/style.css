@@ -12,7 +12,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
-
+@import url("master_bundle.css") screen;
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -112,7 +112,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: {{ site.colors.primary }};
+	color: {{ site.colors.link_active }};
 	background-color: transparent;
 }
 
@@ -473,3 +473,27 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+
+
+.home-intro {
+  margin-bottom: 0;
+  -webkit-animation-duration: 1s;duration
+  -moz-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-decorationuration: 1s;
+  -webkit-animation-delay: .75s;
+  -moz-animation-delay: .75s;
+  -o-animation-delay: .75s;
+  animation-delay: .75s;
+}
+
+
+
+.home-search-form {
+  paddingg: 5px 0px; 
+  text-align: center;
+  .home-searchbox { min-width: 275px; }
+  select { width: 107px; }
+}
+
+

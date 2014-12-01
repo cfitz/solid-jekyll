@@ -8,20 +8,20 @@ permalink: /
     <div class="container">
         <div class="row centered">
             <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>Handsomely Crafted</h4>
+                <i class="fa fa-info-circle"></i>
+                <h4>Who We Are</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>
             <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>Retina Ready</h4>
+                <i class="fa fa-book"></i>
+                <h4>Our Collection</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>
             <div class="col-md-4">
-                <i class="fa fa-trophy"></i>
-                <h4>Quality Theme</h4>
+                <i class="fa fa-anchor"></i>
+                <h4>Maritime Information Network</h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
             </div>		 				
@@ -29,14 +29,16 @@ permalink: /
     </div><! --/container -->
 </div><! --/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
+{% include resources.html title="Resources" limit=10 %}
 
 <div class="container mtb">
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+ 		<div class="col-lg-4 col-lg-offset-1">
+             <h4>Featured Material</h4>
+            <div class="hline"></div>
+            {% for post in site.categories['featured'] %} 
+                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+            {% endfor %}
         </div>
 
         <div class="col-lg-3">
@@ -47,12 +49,9 @@ permalink: /
             {% endfor %}
         </div>
 
-        <div class="col-lg-3">
+        <div id='blog-list' class="col-lg-3">
             <h4>Latest Posts</h4>
             <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
         </div>
 
     </div><! --/row -->

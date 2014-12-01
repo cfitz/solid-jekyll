@@ -1,0 +1,113 @@
+<div class="home-intro animated fadeIn">
+
+	
+	<div class="row text-center">
+  <div class="col-lg-8 col-lg-offset-2">
+    <div class="input-group">
+      <form id='home-search' data-target='ebscohostCustomSearchBox'>
+      
+      <input type="text" class="form-control home-searchbox">
+      
+      <div class="input-group-btn">
+        <button id='search-select-button' type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><span class='search-select-label'>Keyword</span> <span class="caret"></span></button>
+        <ul id='search-select' class="dropdown-menu" role="menu">
+          	<li><a href="#">Keyword</a></li>
+          	<li><a href="#">Title</a></li>
+          	<li><a href="#">Author</a></li>
+         	<li><a href="#">Subject</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      
+      <div class="input-group-btn">
+        <button id='search-service-select-button' type="button" class="btn btn-success" ><span class='search-service-select-label'>Discovery Service</span></button>
+        <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+        	<span class="caret"></span>
+        	<span class="sr-only">Toggle Dropdown</span>
+      	</button>
+        
+        <ul id='search-service-select' class="dropdown-menu dropdown-menu-right" role="menu">
+          <li><a href="#" data-selector='ebscohostCustomSearchBox'>Discovery Service</a></li>
+          <li><a href="#" data-selector='catalogSearchform'>Library Catalog</a></li>
+        </ul>
+      </div><!-- /btn-group -->
+      </form>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+	
+    <div id="libraryCatalogForm" class='home-search-form'>
+
+	<form name="libraryCatalogForm" method="get" action="https://catalog.wmu.se/cgi-bin/koha/opac-search.pl" id="catalogSearchform">
+	<fieldset class="find-field-controls">	
+	<div class="find-field-inputs">
+		<div class="find-field-inputs-row">
+		<span class="inputs">	
+			<select name="idx" class="dd dd-active slave-select">
+			<option value="">Keyword</option>	
+			<option value="ti">Title</option>	
+			<option value="au">Author</option>	
+			<option value="su">Subject</option>
+			<option value="nb">ISBN</option>	
+			<option value="se">Series</option>
+			<option value="callnum">Call number</option>
+		  </select>
+      <span style="position: relative; display: inline-block;" class="text-container" id="librarytext_container"> 
+      <input type="text" title="Type search term" id="transl1" name="q" class="left slave-home-searchbox"  placeholder="WMU Library Shelves">
+      </span>	
+    </span>	
+	<span class="find-field-submit">
+    		<input type="submit" value="Search" id="searchsubmit" class="button styled-button-c3 rs_preserve">
+	</span>
+	</div>
+</div>
+	</fieldset>
+    </form>
+
+      </div>
+	  
+	<div id="discoverySearchForm" class="home-search-form">      
+
+
+<form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post">
+		<input id="ebscohosturl" name="ebscohosturl" value="http://search.ebscohost.com/login.aspx?direct=true&site=eds-live&scope=site&type=0&custid=ns056238&groupid=main&profid=eds&mode=bool&lang=en&authtype=ip,guest" type="hidden">
+		<input id="ebscohostsearchsrc" name="ebscohostsearchsrc" value="db" type="hidden">
+		<input id="ebscohostsearchmode" name="ebscohostsearchmode" value="+" type="hidden">
+		<input id="ebscohostkeywords" name="ebscohostkeywords" value="" type="hidden">
+ 	<fieldset class="find-field-controls">	
+		<div class="find-field-inputs">
+		<div class="find-field-inputs-row">
+			<span class="inputs">	
+  				<input class="dd-input" id="guidedField_0" name="SearchTag" data-messageid="findfield_default_text2" value="keyword" type="hidden">
+
+
+				 <select name="SearchTag"  class="dd dd-active slave-select">
+					<option value="RadioButtonSearchTag_">Keyword</option>	
+					<option value="RadioButtonSearchTag_TI">Title</option>	
+					<option value="RadioButtonSearchTag_AU">Author</option>	
+					<option value="RadioButtonSearchTag_SU">Subject</option>
+				  </select>
+
+
+				<span style="position: relative; display: inline-block;" class="text-container" id="ebscohostsearchtext_container"><input id="ebscohostsearchtext" name="ebscohostsearchtext" value="" class="left ltr-text slave-home-searchbox" component="" auto-complete="" textbox="" accesskey="2" data-searchtextbox="{&quot;AutoSuggestMapId&quot;:&quot;SearchTerm1&quot;}" placeholder="E-journals &amp; Ebooks" data-clear="" data-textclear="{ &quot;btnToolTip&quot;: &quot;Clear&quot; }" type="text"><a style="position: absolute; right: auto; top: 20px; left: 270px;" class="clear-button" aria-hidden="true" tabindex="-1" title="Clear" id="ebscohostsearchtext-clear"></a></span>
+	</span>	
+	<span class="find-field-submit">
+		<input id="SearchButton" name="SearchBtn" value="Search" title="Search" class="button styled-button-c3" type="submit">
+	</span>	
+
+</div>	
+</div>
+</fieldset> 	
+	</form>
+
+
+
+	</div>
+
+
+
+
+
+
+
+</div> <!-- home-intro --> 
+
