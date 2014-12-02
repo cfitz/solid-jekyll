@@ -8,4 +8,9 @@ img: easybib.jpg
 website: http://www.easybib.com/ 
 ---
 ####EasyBib 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+One of the newer full-featured bibliographic managers, designed from the start as a "cloud-based" application.
+
+* Integrates automatically with Google Apps. You don't need a separate username and password. Just login to your gmail and select Easybib from the "More" menu. Exports references straight to a Google Document as well as to Microsoft Word.
+* Export references from the Ebsco Discovery Service
+* You can search the web and WorldCat through the Easybib interface. If Easybib finds the reference, it will fill out as much of the form as it can. Edit if needed and import.
+* Time saving note taking and outline features that can be linked to your bibliography

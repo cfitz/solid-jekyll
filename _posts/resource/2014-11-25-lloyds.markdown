@@ -8,4 +8,10 @@ img: lloyds.jpg
 website: http://www.lloydslist.com/ll/login.htm 
 ---
 ####Lloyd's List 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+Access the oldest running periodical in the maritime sector for the latest news and back issues. WMU has an institutional subscription. Students, faculty and staff can create a personal account, which they can use to log on to LLoyd's online from anywhere. 
+To create your account, you must be on campus -- the main building or HSR.
+* Go to the login page.
+* Next to the login form is a text box which acknowledges your membership in a corporate account. Follow the link in that text box "Click here to set up a new account."
+* Your account must have your WMU.SE email address.
+
+Once you have created it, you may log on to LLoyd's from anywhere and get the full content to the Lloyd's daily, the archive database and Containerisation International.

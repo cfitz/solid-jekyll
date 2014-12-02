@@ -1,0 +1,11 @@
+---
+layout: resource 
+title:  "Library Catalog"
+date:   2014-04-25 16:54:46
+categories:
+- resource 
+img: wmu.jpg
+website: http://catalog.wmu.se
+---
+####Library Catalog
+The catalogue contains descriptions and availability information of printed books and journals, videos, CD-ROMS, and other items in the library's physical inventory. Some online materials are catalogued, with links as appropriate to online resources. Advanced searching allows queries by author, title, subject, publisher, date and format. The WMU library catalogue is available to anyone via the world-wide web, but library members may access additional features by logging in with user id and password, or through their Google Apps login.

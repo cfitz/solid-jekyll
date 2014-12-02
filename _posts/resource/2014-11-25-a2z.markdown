@@ -1,0 +1,11 @@
+---
+layout: resource 
+title:  "Ebsco A-Z List"
+date:   2014-04-25 16:54:46
+categories:
+- resource 
+img: a-z.jpg
+website: http://atoz.ebsco.com/home/ns056238
+---
+####Ebsco A-Z List
+More than just a simple journal listing service, EBSCO A-to-Z is a powerful locator tool that helps researchers to discover all of the electronic resources offered at the library.

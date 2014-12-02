@@ -8,4 +8,4 @@ img: ilaw.jpg
 website: http://proxy.wmu.se/login?url=http://www.i-law.com/ 
 ---
 ####i-Law 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+An excellent source of full-text information focusing primarily on maritime law. The publisher, Informa Law, offers a major portion of the Lloyd's publications available online, including journals, reports and a few books. It does, not, however, include the Lloyd's List daily, which the library obtains under separate subscription

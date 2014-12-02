@@ -8,4 +8,4 @@ img: hein.jpg
 website: http://proxy.wmu.se/login?url=http://heinonline.org/HOL/Welcome 
 ---
 ####HeinOnline 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+More than 1,600 law and law-related periodicals from inception; the world's largest collection of constitutions and constitutional documents; One hundred thousand of the most important early English cases that laid the foundation for the laws of nations under the British Empire; The United Nations Law Collection, Foreign & International Law Resources Database, as well as Legal Classics. This database has a lot to offer, and will be particularly useful to students and professors of Maritime Law and the Law of the Sea.
