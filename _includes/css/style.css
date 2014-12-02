@@ -496,4 +496,11 @@ a.anchor{
   select { width: 107px; }
 }
 
-
+.overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
+}
