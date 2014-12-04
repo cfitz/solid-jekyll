@@ -1,0 +1,37 @@
+---
+layout: contact
+title: Thanks 
+permalink: /thanks/
+---
+
+<div id="contactwrap"></div>
+
+<div class="container mtb">
+    <div class="row">
+        <div class="col-lg-8">
+            <h4>Contact Us</h4>
+            <div class="hline"></div>
+
+            <div class='jumbotron'>
+              <h1>Thank You!</h1>
+              <p>We really appricate your feedback. Someone will be in contact with you shortly</p>
+            </div>
+              
+              
+        </div><! --/col-lg-8 -->
+
+        <div class="col-lg-4">
+            <h4>Our Address</h4>
+            <div class="hline"></div>
+                <p>
+                    {% for line in site.address.first.lines %}
+                        {{ line }} <br>
+                    {% endfor %}
+                </p>
+                <p>
+                    Email: {{ site.email }}<br/>
+                    Tel: {{ site.tel }}
+                </p>       
+        </div>
+    </div><! --/row -->
+</div><! --/container -->

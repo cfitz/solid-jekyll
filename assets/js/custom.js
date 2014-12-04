@@ -64,6 +64,18 @@ jQuery(document).ready(function(){
   				}
 			});
 	};
+ 
+  if ( $("#scroll-nav").length > 0 ){
+  $('body').scrollspy({ target: '#scroll-nav', offset: 200 });
+  $("#scroll-nav").affix({
+    target: "#services", 
+    offset: {
+      top: 20,
+      bottom: function () {
+           return (this.bottom = $('.footer').outerHeight(true))
+       }} 
+  })  
+  }
 	
 	
 });
