@@ -5,8 +5,8 @@ title:            World Maritime University Library
 description:      A Charter Member of the Maritime Information Network
 logo:             site-logo.png
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/solid-jekyll" #important: start with /
-url: "http://cfitz.github.io"
+baseurl: "/" # "/solid-jekyll" #important: start with /
+url: "http://library.wmu.se"
 
 # Build settings
 markdown: kramdown
