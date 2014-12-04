@@ -22,8 +22,10 @@ namespace :deploy do
 
     desc 'Run jekyll to update site before uploading'
     task :update_jekyll do
-            %x(rm -rf _site/* && jekyll build && rm _site/Capfile && rm -rf _site/config)
-     end
+      on "library@library.wmu.se" do 
+        execute( " cd #{release_path}; rm -rf _site/* && jekyll build && rm _site/Capfile && rm -rf _site/config")
+      end 
+    end
 end
 # Default value fer :scm is :git
 # set :scm, :git

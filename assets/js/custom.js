@@ -72,7 +72,8 @@ jQuery(document).ready(function(){
     offset: {
       top: 20,
       bottom: function () {
-           return (this.bottom = $('.footer').outerHeight(true))
+           return 1200; // .(this.bottom = $('#twrap').outerHeight(true))
+
        }} 
   })  
   }
