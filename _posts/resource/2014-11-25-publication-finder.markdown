@@ -5,7 +5,7 @@ date:   2014-04-25 16:54:46
 categories:
 - resource 
 img: ebsco.jpg
-website: http://eds.a.ebscohost.com/eds/search/basic?sid=236a0341-51b0-443d-9532-f586695ecbc2@sessionmgr4003&vid=0&tid=3000EP&sdb=edspub
+website: https://login.proxy.wmu.se/login?url=http://search.ebscohost.com/login.aspx?direct=true&site=pfi-live&plp=1 
 ---
 ####Ebsco Publication Finder
 Publication Finder allows you to search or browse all publications made available to you by your institution, regardless of the vendor or provider.

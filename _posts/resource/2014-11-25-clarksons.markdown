@@ -5,7 +5,7 @@ date:   2014-04-25 16:54:46
 categories:
 - resource 
 img: clarksons.jpg
-website: http://proxy.wmu.se/login?url=http://www.clarksons.net/sin2010= 
+website: http://proxy.wmu.se/login?url=http://www.clarksons.net/sin2010
 ---
 ####Clarksons Shipping Intelligence Network 
 Username: wmul / Password: 1EZEHXM8

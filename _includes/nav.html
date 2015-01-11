@@ -13,9 +13,10 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Blog" %}class="active"{% endif %}><a href="{{ site.blog_url }}">BLOG</a></li>
+        <li {% if page.title == "Blog" %}class="active"{% endif %}><a target="_blank" href="{{ site.blog_url }}">BLOG</a></li>
         <li {% if page.title == "Resources" %}class="active"{% endif %}><a href="{{"/resources/" | prepend: site.baseurl }}">RESOURCES</a></li>
         <li {% if page.title == "Services" %}class="active"{% endif %}><a href="{{"/services/" | prepend: site.baseurl }}">SERVICES</a></li>
+        <li><a href="{{ site.readings_url }}">RECOMMENDED READINGS</a></li>
         <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
       </ul>
     </div><!--/.nav-collapse -->
